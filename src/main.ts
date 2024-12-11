@@ -16,8 +16,14 @@
 // console.log("03 - Part One", threePartOne(fullInput));
 // console.log("03 - Part Two", threePartTwo(fullInput));
 
-import { fourPartOne, fourPartTwo } from "./04 - Ceres Search/four";
-import { fullInput } from "./04 - Ceres Search/four-input";
+// import { fourPartOne, fourPartTwo } from "./04 - Ceres Search/four";
+// import { fullInput } from "./04 - Ceres Search/four-input";
 
-console.log("04 - Part One", fourPartOne(fullInput));
-console.log("04 - Part Two", fourPartTwo(fullInput));
+// console.log("04 - Part One", fourPartOne(fullInput));
+// console.log("04 - Part Two", fourPartTwo(fullInput));
+
+import { fivePartOne, fivePartTwo } from "./05 - Print Queue/five";
+import { fullInput, fullRules } from "./05 - Print Queue/five-input";
+
+console.log("05 - Part One", fivePartOne(fullInput, fullRules));
+console.log("05 - Part Two", fivePartTwo(fullInput, fullRules));
