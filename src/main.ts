@@ -22,8 +22,15 @@
 // console.log("04 - Part One", fourPartOne(fullInput));
 // console.log("04 - Part Two", fourPartTwo(fullInput));
 
-import { fivePartOne, fivePartTwo } from "./05 - Print Queue/five";
-import { fullInput, fullRules } from "./05 - Print Queue/five-input";
+// import { fivePartOne, fivePartTwo } from "./05 - Print Queue/five";
+// import { fullInput, fullRules } from "./05 - Print Queue/five-input";
 
-console.log("05 - Part One", fivePartOne(fullInput, fullRules));
-console.log("05 - Part Two", fivePartTwo(fullInput, fullRules));
+// console.log("05 - Part One", fivePartOne(fullInput, fullRules));
+// console.log("05 - Part Two", fivePartTwo(fullInput, fullRules));
+
+
+import { sevenPartOne, sevenPartTwo } from "./07 - Bridge Repair/seven";
+import { fullInput } from "./07 - Bridge Repair/seven-input";
+
+console.log("07 - Part One", sevenPartOne(fullInput));
+console.log("07 - Part Two", sevenPartTwo(fullInput));
