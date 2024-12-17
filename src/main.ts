@@ -28,14 +28,19 @@
 // console.log("05 - Part One", fivePartOne(fullInput, fullRules));
 // console.log("05 - Part Two", fivePartTwo(fullInput, fullRules));
 
-import { sixPartOne, sixPartTwo } from "./06 - Guard Gallivant/six";
-import { fullInput } from "./06 - Guard Gallivant/six-input";
+// import { sixPartOne, sixPartTwo } from "./06 - Guard Gallivant/six";
+// import { fullInput } from "./06 - Guard Gallivant/six-input";
 
-console.log("06 - Part One", sixPartOne(fullInput));
-console.log("06 - Part Two", sixPartTwo(fullInput));
+// console.log("06 - Part One", sixPartOne(fullInput));
+// console.log("06 - Part Two", sixPartTwo(fullInput));
 
 // import { sevenPartOne, sevenPartTwo } from "./07 - Bridge Repair/seven";
 // import { fullInput } from "./07 - Bridge Repair/seven-input";
 
 // console.log("07 - Part One", sevenPartOne(fullInput));
 // console.log("07 - Part Two", sevenPartTwo(fullInput));
+
+import { eightPartOne } from "./08 - Resonant Collinearity/eight";
+import { fullInput } from "./08 - Resonant Collinearity/eight-input";
+
+console.log("08 - Part One", eightPartOne(fullInput));

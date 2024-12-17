@@ -80,9 +80,9 @@ export function sixPartOne(map: string[][]): number {
   }
 
   // Print map
-  for (let index = 0; index < map.length; index++) {
-    console.log(map[index].reduce((acc, curr) => acc + curr, ""));
-  }
+  // for (let index = 0; index < map.length; index++) {
+  //   console.log(map[index].reduce((acc, curr) => acc + curr, ""));
+  // }
 
   return totalVisitedPositions;
 }
