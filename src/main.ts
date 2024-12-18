@@ -40,7 +40,14 @@
 // console.log("07 - Part One", sevenPartOne(fullInput));
 // console.log("07 - Part Two", sevenPartTwo(fullInput));
 
-import { eightPartOne } from "./08 - Resonant Collinearity/eight";
-import { fullInput } from "./08 - Resonant Collinearity/eight-input";
+// import { eightPartOne } from "./08 - Resonant Collinearity/eight";
+// import { fullInput } from "./08 - Resonant Collinearity/eight-input";
 
-console.log("08 - Part One", eightPartOne(fullInput));
+// console.log("08 - Part One", eightPartOne(fullInput));
+
+
+import { ninePartOne, ninePartTwo } from "./09 - Disk Fragmenter/nine";
+import { fullInput } from "./09 - Disk Fragmenter/nine-input";
+
+console.log("09 - Part One", ninePartOne(fullInput));
+console.log("09 - Part Two", ninePartTwo(fullInput))
